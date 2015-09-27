@@ -125,12 +125,11 @@ with open( filename, 'wb' ) as fh:
                 
                     
                 ## determine how many spaces you need between the Rosetta code and the Default HETNAM
-                # spaces needed between Rosetta Code and Default HETNAM
                 num_of_spaces = 14 - len( Rosetta_code )
                 spaces = ' ' * num_of_spaces
                 
                 
-                ## put together the row to be printed into the file
+                ## put together the row to be writen into the file
                 row = "  %s   %s%s%s  %s\n" %( three_letter_code, Rosetta_code, spaces, default_hetnam, terminal_code )
                 fh.write( row )
 
