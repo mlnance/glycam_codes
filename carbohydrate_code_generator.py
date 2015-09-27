@@ -17,7 +17,12 @@ import os
 # filename preparation
 working_dir = os.getcwd() + '/'
 filename = working_dir + "glycam.codes"
-file_header = "# A list of 3-letter GLYCAM codes for monosaccharide residues and their\n# Rosetta equivalents, including default Rosetta HETNAM descriptions, which\n# may be overridden by conflicting information from LINK records.\n\n# To allow these codes, use the options flag\n# -alternate_3_letter_codes glycam.codes\n\n# See DeMarco & Woods (2007) Glycobiology, 18(6), 426-40 for more information.\n\n# CODES ARE CASE-SENSITIVE!\n\n# Code  Rosetta Code  Default HETNAM\n"
+file_header = "# A list of 3-letter GLYCAM codes for monosaccharide residues \
+ and their\n# Rosetta equivalents, including default Rosetta HETNAM descriptions, \
+which\n# may be overridden by conflicting information from LINK records.\n\n# \
+To allow these codes, use the options flag\n# -alternate_3_letter_codes \
+glycam.codes\n\n# See DeMarco & Woods (2007) Glycobiology, 18(6), 426-40 \
+for more information.\n\n# CODES ARE CASE-SENSITIVE!\n\n# Code  Rosetta Code  Default HETNAM\n"
 
 # linkage code dictionary
 # { "one letter linkage code" : "Default HETNAM linkage" }
