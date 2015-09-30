@@ -39,15 +39,14 @@ one_letter_linkage_code_dict = { '0' : "->4)", '1' : "->1)", '2' : "->2)", '3' :
 # one letter code dictionary
 # iterate over keys to get the one letter sugar codes
 # { "one letter GLYCAM code" : "Rosetta code" }
-one_letter_sugar_code_list = [ 'A', 'D', 'R', 'X', 'N', 'E', 'L', 'G', 'K', 'I', \
-'M', 'T', 'C', 'P', 'B', 'J', 'F', 'Q', 'H', 'O', 'Z', 'U', 'V', 'Y', 'W', 'S', \
-'a', 'd', 'r', 'x', 'n', 'e', 'l', 'g', 'k', 'i', 'm', 't', 'c', 'p', 'b', 'j', \
-'f', 'q', 'h', 'o', 'z', 'u', 'v', 'y', 'w', 's' ]
+one_letter_sugar_code_list = [ 'A', 'D', 'R', 'X', 'N', 'E', 'L', 'G', 'K', \
+'I', 'M', 'T', 'C', 'P', 'B', 'J', 'F', 'Q', 'H', 'a', 'd', 'r', 'x', 'n', \
+'e', 'l', 'g', 'k', 'i', 'm', 't', 'c', 'p', 'b', 'j', 'f', 'q', 'h' ]
 
 one_letter_sugar_code_dict = { 'A' : "Ara", 'D' : "Lyx", 'R' : "Rib", 'X' : "Xyl", \
 'N' : "All", 'E' : "Alt", 'L' : "Gal", 'G' : "Glc", 'K' : "Gul", 'I' : "Ido", \
 'M' : "Man", 'T' : "Tal", 'C' : "Fru", 'P' : "Psi", 'B' : "Sor", 'J' : "Tag", \
-'F' : "Fuc", 'Q' : "Qui", 'H' : "Rha", 'd' : "Lyx", 'r' : "Rib", 'x' : "Xyl", \
+'F' : "Fuc", 'Q' : "Qui", 'H' : "Rha", 'a' : "Ara", 'd' : "Lyx", 'r' : "Rib", 'x' : "Xyl", \
 'n' : "All", 'e' : "Alt", 'l' : "Gal", 'g' : "Glc", 'k' : "Gul", 'i' : "Ido", \
 'm' : "Man", 't' : "Tal", 'c' : "Fru", 'p' : "Psi", 'b' : "Sor", 'j' : "Tag", \
 'f' : "Fuc", 'q' : "Qui", 'h' : "Rha" }
